@@ -20,6 +20,15 @@ function PostItem({id, name, avatar, date, content,comments}){
         </p>
       </div>
       
+
+      {
+        comments.map((comment,index)=>(
+          <div>
+            {comment.id}
+            {comment.author.avatar}
+          </div>
+        ))
+      }
       
       
       
