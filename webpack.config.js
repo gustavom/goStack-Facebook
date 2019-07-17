@@ -18,17 +18,21 @@ module.exports = {
           loader: 'babel-loader'
         }
       },
+      // {
+      //   test:/\.css$/,
+      //   use:[
+      //     {loader: 'style-loader'},
+      //     {loader: 'css-loader'}
+      //   ]
+      // },
       {
-        test:/\.css$/,
-        use:[
-          {loader: 'style-loader'},
-          {loader: 'css-loader'}
-        ]
+        test: /\.scss$/,
+        loaders: ['style-loader', 'css-loader', 'sass-loader']
       },
       {
         test:/.*\.(gif|jpe?g|png)$/i,
         use:[
-          {loaver: 'file-loader'}
+          {loader: 'file-loader'}
         ]
       },
       {
