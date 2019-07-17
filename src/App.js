@@ -1,6 +1,9 @@
 import React from 'react';
-import 'normalize.css';
+import './assets/scss/styles.scss';
+import Header from './components/header/Header'
 
 function App(){
-  return <h1>Teste</h1>
+  return <Header />
 }
+
+export default App;
