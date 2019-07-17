@@ -1,0 +1,20 @@
+header{
+  &.header{
+    background-color: #4A90E2;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .profile{
+    font-weight: 600;
+    color: #fff;
+    font-size: 15px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    svg{
+      margin: 0 5px;
+    }
+  }
+}
