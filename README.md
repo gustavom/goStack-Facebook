@@ -1,4 +1,6 @@
-# [GoStack Facebook](https://gustavom.github.io/goStack-Facebook/)
+# [goBook](https://gustavom.github.io/goStack-Facebook/)
+
+[![Static project to study and practice the flow of properties and states of components.](./goBook-readme.png "goBook - Static project to study and practice the flow of properties and states of components.")](https://gustavom.github.io/techmind/)
 
 ## Static project to study and practice the flow of properties and states of components.
 
