@@ -2,6 +2,8 @@ import React from 'react';
 
 import './_post-item.scss';
 
+import CommentItem from '../commentItem/CommentItem';
+
 function PostItem({id, name, avatar, date, content,comments}){
   return(
     <div className={`post-item ${id}`}>
@@ -23,10 +25,12 @@ function PostItem({id, name, avatar, date, content,comments}){
 
       {
         comments.map((comment,index)=>(
-          <div>
-            {comment.id}
-            {comment.author.avatar}
-          </div>
+          <CommentItem 
+            key={index}
+            name={comment.author.name}
+            avatar={comment.author.avatar}
+            content={comment.content}
+          />
         ))
       }
       
